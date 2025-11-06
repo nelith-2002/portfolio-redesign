@@ -1,6 +1,6 @@
 export default function AgentMission() {
   const MISSION_TEXT = `
-  A dedicated, creative, and talented university student with hands-on experience in hackathons and tech events,committed to expanding programming skills and staying current with new technologies. Skilled in front-end developmentfor web and mobile platforms and have a keen interest in machine learning.
+  A dedicated, creative, and talented university student with hands-on experience in hackathons and tech events,committed to expanding programming skills and staying current with new technologies. Skilled in front-end development for web and mobile platforms and have a keen interest in machine learning.
   `;
 
   return (
@@ -12,7 +12,7 @@ export default function AgentMission() {
             <span>MISSION_BRIEF:</span>
           </p>
 
-          <p className="text-sm md:text-base leading-relaxed whitespace-pre-line">
+          <p className="text-md md:text-base leading-relaxed whitespace-pre-line">
             {MISSION_TEXT}
           </p>
         </div>

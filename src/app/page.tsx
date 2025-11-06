@@ -1,15 +1,17 @@
 import { MatrixRain } from "../components/MatrixRain";
 import AgentNavbar from "../components/AgentNavbar";
-import AgentHero from "../components/AgentHero";
+import AgentHero from "../components/AgentHero"; 
 import AgentContact from "../components/AgentContact";
 import AgentCTA from "../components/AgentCTA";
 import AgentMission from "../components/AgentMission";
+import ProjectsSection from "../components/ProjectsSection";
+
 
 
 
 export default function Home() {
   return (
-     <main className="relative min-h-screen">
+     <main className="relative min-h-screen pt-20">
       {/* BACKGROUND */}
       <MatrixRain />
 
@@ -21,6 +23,7 @@ export default function Home() {
       <AgentMission />
       <AgentCTA />
       <AgentContact />
+      <ProjectsSection />
     
 
       {/* REST OF HERO CONTENT GOES HERE */}

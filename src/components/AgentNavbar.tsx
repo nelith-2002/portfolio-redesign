@@ -21,9 +21,9 @@ export default function AgentNavbar() {
   }, []);
 
   return (
-    <header className="relative z-20">
+    <header className="fixed top-0 left-0 w-full z-50 pointer-events-none">
       <div
-        className="mx-auto mt-6 max-w-7xl border px-8 py-4 flex items-center justify-between bg-black/40"
+        className="pointer-events-auto mx-auto mt-6 max-w-7xl border px-8 py-4 flex items-center justify-between bg-black/100"
         style={{ borderColor: "#b4ff39", color: "#b4ff39" }}
       >
         {/* LEFT: Title */}
