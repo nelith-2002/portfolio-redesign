@@ -5,7 +5,8 @@ import AgentContact from "../components/AgentContact";
 import AgentCTA from "../components/AgentCTA";
 import AgentMission from "../components/AgentMission";
 import ProjectsSection from "../components/ProjectsSection";
-
+import AgentResumeButton from "../components/AgentResumeButton";
+import { Agent } from "http";
 
 
 
@@ -23,6 +24,7 @@ export default function Home() {
       <AgentMission />
       <AgentCTA />
       <AgentContact />
+      <AgentResumeButton />
       <ProjectsSection />
     
 
