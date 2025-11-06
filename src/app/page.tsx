@@ -1,5 +1,6 @@
 import { MatrixRain } from "../components/MatrixRain";
 import AgentNavbar from "../components/AgentNavbar";
+import AgentHero from "../components/AgentHero";
 
 
 export default function Home() {
@@ -11,7 +12,7 @@ export default function Home() {
       {/* NAVBAR */}
       <AgentNavbar />
 
-      
+      <AgentHero />
 
       {/* REST OF HERO CONTENT GOES HERE */}
       <section className="relative z-20 max-w-6xl mx-auto mt-16 px-6">
