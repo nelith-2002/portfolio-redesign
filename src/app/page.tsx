@@ -1,17 +1,21 @@
 import { MatrixRain } from "../components/MatrixRain";
+import AgentNavbar from "../components/AgentNavbar";
+
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen text-lime-300">
-      {/* MATRIX BACKGROUND */}
+     <main className="relative min-h-screen">
+      {/* BACKGROUND */}
       <MatrixRain />
 
-      {/* YOUR CONTENT ON TOP */}
-      <section className="relative z-10 max-w-6xl mx-auto px-4 py-12">
-        {/* later we’ll put your navbar, “AGENT_PORTFOLIO_v2.5”, role, buttons, etc. */}
-        <h1 className="text-3xl md:text-5xl font-mono">
-          
-        </h1>
+      {/* NAVBAR */}
+      <AgentNavbar />
+
+      
+
+      {/* REST OF HERO CONTENT GOES HERE */}
+      <section className="relative z-20 max-w-6xl mx-auto mt-16 px-6">
+        {/* System_Initializing, ./Deeshana --init, etc. */}
       </section>
     </main>
   );
