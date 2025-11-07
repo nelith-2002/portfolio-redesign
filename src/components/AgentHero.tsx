@@ -99,6 +99,8 @@ export default function AgentHero() {
             {AGENT_CONFIG.name}
           </h1>
 
+
+
           {/* Info lines */}
           <div className="mt-6 space-y-2 text-sm md:text-base">
             {/* ROLE (with typing effect) */}
