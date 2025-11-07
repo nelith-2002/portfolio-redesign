@@ -67,7 +67,7 @@ export default function LoadingScreen({ onDone ,fast }: LoadingScreenProps) {
 
   return (
     <div
-      className="fixed inset-0 z-[60] flex flex-col items-center justify-center text-[#b4ff39]"
+      className="fixed inset-0 z-60 flex flex-col items-center justify-center text-[#b4ff39]"
       style={{
         backgroundColor: "#020b06",
         backgroundImage:
