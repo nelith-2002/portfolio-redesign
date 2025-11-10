@@ -12,6 +12,7 @@ import ProjectsSection from "../components/ProjectsSection";
 import AgentResumeButton from "../components/AgentResumeButton";
 import LoadingScreen from "../components/LoadingScreen";
 import SkillsSection from "../components/SkillsSection";
+import EducationSection from "../components/EducationSection";
 
 export default function Home() {
   const [showLoader, setShowLoader] = useState(true);
@@ -60,6 +61,7 @@ export default function Home() {
       <ProjectsSection />
       <SkillsSection /> 
 
+      <EducationSection />
       {/* REST OF HERO CONTENT GOES HERE */}
       <section className="relative z-20 max-w-6xl mx-auto mt-16 px-6" />
     </main>

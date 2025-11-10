@@ -21,6 +21,7 @@ import {
   SiPostgresql,
   SiMongodb,
   SiGooglecolab,
+  SiJavascript
 } from "react-icons/si";
 import { TbSql } from "react-icons/tb";
 import { BsBoxSeam } from "react-icons/bs";
@@ -50,6 +51,7 @@ const SKILLS = [
   // LANGUAGE
   { name: "Java", icon: FaJava, area: "LANGUAGE" },
   { name: "Python", icon: FaPython, area: "LANGUAGE" },
+  { name: "JavaScript", icon: SiJavascript, area: "LANGUAGE" },
 
   // TOOLS
   { name: "Git", icon: FaGitAlt, area: "TOOLS" },
