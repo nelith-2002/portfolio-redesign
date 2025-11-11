@@ -9,11 +9,11 @@ export default function EducationSection() {
       title: "Bachelor_of_Computer_Science",
       institution: "Tech_University",
       period: "2018 - 2022",
-      description: "Specialized in Software Engineering and Mobile Development",
+      description: "Specialized in computer Science",
       image: "/images/edu/uni.png", 
     },
     {
-      title: "Mobile_Development_Certification",
+      title: "",
       institution: "Advanced_Tech_Institute",
       period: "2022",
       description: "React Native & Flutter Expert Certification",

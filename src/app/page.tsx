@@ -13,21 +13,23 @@ import AgentResumeButton from "../components/AgentResumeButton";
 import LoadingScreen from "../components/LoadingScreen";
 import SkillsSection from "../components/SkillsSection";
 import EducationSection from "../components/EducationSection";
+import TestimonialsSection from "../components/TestimonialsSection";
+import ContactPage from "../components/ContactPage";
+import Footer from "../components/Footer"; // ⬅️ NEW
 
 export default function Home() {
   const [showLoader, setShowLoader] = useState(true);
   const [fastLoader, setFastLoader] = useState(false);
 
-
-  // eslint-disable-next-line react-hooks/exhaustive-deps   
-
+  // Show loading screen only the first time per tab/session
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     if (typeof window === "undefined") return;
     const alreadyLoaded = sessionStorage.getItem("agent_loaded");
     if (alreadyLoaded) {
       setFastLoader(true);
     }
-  }, []); 
+  }, []);
 
   const handleLoaderDone = () => {
     setShowLoader(false);
@@ -59,11 +61,16 @@ export default function Home() {
       <AgentContact />
       <AgentResumeButton />
       <ProjectsSection />
-      <SkillsSection /> 
-
+      <SkillsSection />
       <EducationSection />
-      {/* REST OF HERO CONTENT GOES HERE */}
+      <TestimonialsSection />
+      <ContactPage />
+
+      {/* spacer section (can remove if unused) */}
       <section className="relative z-20 max-w-6xl mx-auto mt-16 px-6" />
+
+      {/* FOOTER */}
+      <Footer /> {/* ⬅️ NEW */}
     </main>
   );
 }
